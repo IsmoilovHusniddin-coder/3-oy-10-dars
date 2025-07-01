@@ -54,7 +54,6 @@
 //     console.log("Qariyalar");
 // }
 
-
 // Topshiriq 9: Raqam juft yoki toq ekanligini ternary operator bilan aniqlang.
 
 // let n = prompt("Son kiriting")
@@ -117,7 +116,6 @@
 
 //Topshiriq 13: 1 dan 100 gacha bo‘lgan 3 va 5 ga karrali sonlar yig‘indisini toping.
 
-
 // let res = 0
 // for (let i = 1; i <= 100; i++) {
 //     if ((i % 3 == 0) && (i % 5 == 0)) {
@@ -179,7 +177,6 @@
 //     console.log("Malumot xato kiritildi");
 // }
 
-
 // Topshiriq 20: Quyidagi xususiyatlarga ega student ob’ekti yarating:
 
 // let student = {
@@ -196,11 +193,9 @@
 // }
 // student.getInfo()
 
-
 // ⭐ Bonus (Ijodiy mini loyihalar)
 
 // Topshiriq 21: Math.random() yordamida tasodifiy kulgili hazillar chiqadigan "Hazil generatori" tuzing (arraydan foydalaning).
-
 
 // let kulguliArr = [
 //     "😂 Bugun aqlimni yo‘qotdim, topgan odamga mukofot bor!",
@@ -255,7 +250,6 @@
 //     }
 // }
 
-
 // ✅ 2. Mahsulotlar narxi (Do'kon)
 
 // let products = [
@@ -284,7 +278,6 @@
 //     if (products[i].price > res) {
 //         res = products[i].price
 
-
 //     }
 // }
 // console.log(res);
@@ -296,8 +289,6 @@
 // }
 // console.log(res);
 
-
-
 // ✅ 3. Avtolar ro'yxati
 
 // let cars = [
@@ -306,7 +297,6 @@
 //     { brand: "Kia", year: 2015 },
 //     { brand: "BMW", year: 2020 },
 // ];
-
 
 // •	2015 yildan keyin chiqqan mashinalarni chiqarish.
 // for (let i = 0; i < cars.length; i++) {
@@ -328,7 +318,6 @@
 // for (let i = 0; i < cars.length; i++) {
 //     if (cars[i].year < res) {
 //         res = cars[i].year
-
 
 //     }
 // }
@@ -360,7 +349,6 @@
 // }
 // res /= count
 // console.log(res);
-
 
 // •	Eng yuqori baho qaysi fandan?
 // let res = 0
@@ -407,53 +395,23 @@
 //     console.log(`${cart[i].name} - ${cart[i].price} x ${cart[i].quantity} = ${cart[i].price * cart[i].quantity}`);
 // }
 
-
-
 // ✅ 6. Random test natijalari
 
 let students = [
-    { name: "Aziza", scores: [78, 82, 91] },
-    { name: "Farruh", scores: [60, 65, 70] },
-    { name: "Sardor", scores: [95, 90, 99] },
+  { name: "Aziza", scores: [78, 82, 91] },
+  { name: "Farruh", scores: [60, 65, 70] },
+  { name: "Sardor", scores: [95, 90, 99] },
 ];
-for (const student of students) {
-    let sum = 0;
-    for (const score of student.scores) {
-        sum += score
-    }
-    console.log(sum/student.scores.length);
-
-    
-}
-
 
 // •	Har bir o‘quvchining o‘rtacha ballini toping.
-// let res = 0
-// for (let i = 0; i < students.length; i++) {
-//     res += students[i].scores
-// } res / students.scores.length
 
-// console.log(res);
+// for (const student of students) {
+//     let sum = 0;
+//     for (const score of student.scores) {
+//         sum += score
+//     }
+//     console.log(sum / student.scores.length);
+// }
 
- 
 // •	Eng yuqori umumiy ball olgan o‘quvchini toping.
 // •	90 dan yuqori ball olgan o‘quvchilarni ajrating.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
